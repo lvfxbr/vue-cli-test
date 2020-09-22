@@ -10,16 +10,19 @@
       <el-button>el-button</el-button>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Datepicker></Datepicker>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Datepicker from './components/Datepicker.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Datepicker,
   }
 }
 </script>
